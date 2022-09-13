@@ -1,0 +1,33 @@
+HilalHesap = {
+	  'ad' : 'Hilal Kazan',
+    'hesapNo' : '123456',
+    'bakiye' : 3000,
+    'ekHesap' : 2000
+}
+
+SepethHesap = {
+	  'ad' : 'Sepeth Kern',
+    'hesapNo' : '147852',
+    'bakiye' : 2000,
+    'ekHesap' : 1000
+}
+
+def paraCek(hesap, miktar):
+	print (f"Merhaba {hesap['ad']}") 
+    
+   if (hesap['bakiye'] >= miktar):
+    	print('Paranızı alabilirsiniz')
+   else:
+    	toplam = help['bakiye'] + hesap['ekHesap']
+        
+       if (toplam >= miktar):
+        	ekHesapKullanimi = input('ek hesap kullanılsın mı(e / h)')
+            
+           if (ekHesapKullanimi == e):
+            	print('paranizi alabilirsiniz')
+           else:
+            	print(f"{hesap['hesapNo']} nolu hesabınızda {hesap['bakiye']} bulunmaktadır.")
+        else:
+        	print("üzgünüz bakiye yetersiz")
+            
+paraCek(HilalHesap, 2000)
