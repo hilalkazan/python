@@ -1,12 +1,12 @@
 HilalHesap = {
-	  'ad' : 'Hilal Kazan',
+    'ad' : 'Hilal Kazan',
     'hesapNo' : '123456',
     'bakiye' : 3000,
     'ekHesap' : 2000
 }
 
 SepethHesap = {
-	  'ad' : 'Sepeth Kern',
+    'ad' : 'Sepeth Kern',
     'hesapNo' : '147852',
     'bakiye' : 2000,
     'ekHesap' : 1000
